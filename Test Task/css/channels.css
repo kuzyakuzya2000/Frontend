@@ -1,0 +1,64 @@
+#channels{
+    margin-top: 32px;
+    height: 696px;
+    overflow-y: scroll;
+    padding-right: 8px;
+}
+
+#channels::-webkit-scrollbar{
+    width: 4px;
+    background-color: white;
+}
+  
+#channels::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background: #BDBDBD;
+}
+
+#channels::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background-color: #F2F2F2;
+  }
+
+.channel-item{
+    width: 1180;
+    background: #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.logo{
+    width: 400px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.channel-name{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 21px;
+    margin-bottom: 17px;
+}
+
+.program{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Rubik;
+    font-size: 16px;
+    margin-bottom: 12px;  
+}
+
+.current{
+     color: red;
+}
+
+.time{
+    margin-right: 16px;
+}
+

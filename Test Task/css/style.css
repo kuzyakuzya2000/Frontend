@@ -1,0 +1,13 @@
+@import url('../css/header.css');
+@import url('../css/footer.css');
+@import url('../css/movies.css');
+@import url('../css/channels.css');
+
+header, main, #div-footer{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}

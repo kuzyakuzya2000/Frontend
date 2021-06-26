@@ -1,0 +1,121 @@
+#tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-top: 54px;
+}
+
+#movies-button{
+    margin-right: 24px;
+}
+
+.selected-tab{
+    color: red;
+    border-bottom: 2px solid red; 
+}
+
+.title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+#movie-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-item{
+    position: relative;
+    width: 280px;
+    height: 440px;
+}
+
+.movie-img{
+    margin-bottom: 11px;
+}
+
+.movie-text{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.movie-img-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 280px;
+    height: 370px;
+    opacity: 0;
+    border-radius: 8px;
+    background: #333333;
+}
+
+.movie-img-text p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F2F2F2;
+    padding: 16px;
+    margin: 0;
+}
+
+.movie-img-text:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#genre-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.genre{
+    position: relative;
+    width: 280px;
+    height: 224px;
+    border-radius: 6px;
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.genre:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#comedy{
+    background: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+}
+
+#drama{
+    background: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+}
+
+#fantasy{
+    background: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+}
+
+#horror{
+    background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+}
+
+.smile{
+    margin-top: 80px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.genre-name{
+    font-family: Rubik;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+}

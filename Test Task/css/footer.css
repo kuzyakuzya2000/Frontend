@@ -1,0 +1,37 @@
+footer{
+    background: #F2F2F2;
+    margin-top: 72px;
+}
+
+#footer-img{
+    float: left;
+    width: 32px;
+    height: 64px;
+    margin-right: 40px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+#footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+#footer-text p{
+    margin: 0;
+}
+
+#address{
+    margin-bottom: 6px;
+}
+
+#phone-number{
+    margin-bottom: 10px;
+}
+
+#link{
+    font-weight: 500;
+    margin-top: 4px;
+}

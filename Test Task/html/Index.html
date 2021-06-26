@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=1">
+		<title>Test task frontend</title>
+		<link rel="stylesheet" href="../css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+			<div id="logo">
+				<div id="sign">
+					<div id="ellipse"></div>
+					<div id="vector"></div>
+				</div>
+				<div id="logo-text">
+					Видеосервис
+				</div>
+			</div>
+			
+			<div id="search">
+				<input type="text" id="search-text" placeholder="Поиск...">
+				<button type="submit" id="search-button">Найти</button>
+			</div>
+
+			<div id="user">
+				<div id="username"></div>
+				<button type="submit" id="login-button">Войти</button>
+			</div>
+		</header>
+
+		<main>
+			<div id="tabs" class="title">
+				<div id="movies-button" class="selected-tab">
+					Фильмы
+				</div>
+				<div id="tv-button" class="unselected-tab">
+					Телеканалы
+				</div>
+			</div>
+			<section id="new">
+				<div class="title">
+					🔥 Новинки
+				</div>
+				<div id="movie-items">
+					<div class="movie-item">
+						<img class="movie-img" src="../img/posters/cartoon.png">
+						<div class="movie-img-text" id="cartoon-img-text">
+
+						</div>
+						<div class="movie-text">
+							Мульт в кино. Выпуск №103. Некогда грустить!	
+						</div>
+					</div>
+					<div class="movie-item">
+						<img class="movie-img" src="../img/posters/batman.png">
+						<div class="movie-img-text" id="batman-img-text">
+							
+						</div>
+						<div class="movie-text">
+							Новый Бэтмен
+						</div>
+					</div>
+					<div class="movie-item">
+						<img class="movie-img" src="../img/posters/hollywood.png">
+						<div class="movie-img-text" id="hollywood-img-text">
+							<p>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</p>
+						</div>
+						<div class="movie-text">
+							Однажды... в Голливуде
+						</div>
+					</div>
+					<div class="movie-item">
+						<img class="movie-img" src="../img/posters/strippers.png">
+						<div class="movie-img-text" id="strippers-img-text">
+
+						</div>
+						<div class="movie-text">
+							Стриптизёрши
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="genres">
+				<div class="title">
+					Жанры
+				</div>
+				<div id="genre-items">
+					<div class="genre" id="comedy">
+						<div class="smile">
+							😁
+						</div>
+						<div class="genre-name">
+							Комедии
+						</div>
+					</div>
+					<div class="genre" id="drama">
+						<div class="smile">
+							😭
+						</div>
+						<div class="genre-name">
+							Драмы
+						</div>
+					</div>
+					<div class="genre" id="fantasy">
+						<div class="smile">
+							👽
+						</div>
+						<div class="genre-name">
+							Фантастика
+						</div>
+					</div>
+					<div class="genre" id="horror">
+						<div class="smile">
+							👻
+						</div>
+						<div class="genre-name">
+							Ужасы
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="channels">
+				<div class="channel-item">
+					<div class="logo">
+						<img class="channel-logo" src="../img/icons/first-channel.png">
+					</div>
+					<div class="channel-text">
+						<div class="channel-name">
+							Первый канал
+						</div>
+						<div class="schedule">
+							<div class="program current">
+								<div class="time">
+									13:00
+								</div>
+								<div>
+									Новости (с субтитрами)
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									14:00
+								</div>
+								<div>
+									Давай поженимся
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									15:00
+								</div>
+								<div>
+									Другие новости
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="channel-item">
+					<div class="logo">
+						<img class="channel-logo" src="../img/icons/2x2.png">
+					</div>
+					<div class="channel-text">
+						<div class="channel-name">
+							2x2
+						</div>
+						<div class="schedule">
+							<div class="program current">
+								<div class="time">
+									13:00
+								</div>
+								<div>
+									МУЛЬТ ТВ. Сезон 4, 7 серия
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									14:00
+								</div>
+								<div>
+									ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									15:00
+								</div>
+								<div>
+									БУРДАШЕВ. Сезон 1, 20 серия
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="channel-item">
+					<div class="logo">
+						<img class="channel-logo" src="../img/icons/rbc.png">
+					</div>
+					<div class="channel-text">
+						<div class="channel-name">
+							Первый канал
+						</div>
+						<div class="schedule">
+							<div class="program current">
+								<div class="time">
+									13:00
+								</div>
+								<div>
+									ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									14:00
+								</div>
+								<div>
+									ДЕНЬ. Главные темы
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									15:00
+								</div>
+								<div>
+									Главные новости
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="channel-item">
+					<div class="logo">
+						<img class="channel-logo" src="../img/icons/amedia.png">
+					</div>
+					<div class="channel-text">
+						<div class="channel-name">
+							AMEDIA PREMIUM
+						</div>
+						<div class="schedule">
+							<div class="program current">
+								<div class="time">
+									13:00
+								</div>
+								<div>
+									Клиент всегда мёртв
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									14:00
+								</div>
+								<div>
+									Голодные игры: Сойка-пересмешница. Часть I
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									15:00
+								</div>
+								<div>
+									Секс в большом городе
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="channel-item">
+					<div class="logo">
+						<img class="channel-logo" src="../img/icons/first-channel.png">
+					</div>
+					<div class="channel-text">
+						<div class="channel-name">
+							Первый канал
+						</div>
+						<div class="schedule">
+							<div class="program current">
+								<div class="time">
+									13:00
+								</div>
+								<div>
+									Новости (с субтитрами)
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									14:00
+								</div>
+								<div>
+									Давай поженимся
+								</div>
+							</div>
+							<div class="program">
+								<div class="time">
+									15:00
+								</div>
+								<div>
+									Другие новости
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div id="div-footer">
+				<img src="../img/icons/htc-cs.png" id="footer-img">
+				<div id="footer-text">
+					<div id="address">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</div>
+					<div id="phone-number">+7 (3412) 93-88-61, 43-29-29</div>
+					<a id="link">htc-cs.ru</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
